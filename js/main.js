@@ -73,7 +73,7 @@ function replaceEvens(arr){
       }
     
 }
-
+replaceEvens(["Max","Baseball","Reboot","Goku","Trucks","Rodger"]);
 
 //Expected output
 //Given arr == ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
