@@ -66,9 +66,13 @@ and replaces it with the string "even index" */
 
 
 function replaceEvens(arr){
-    //code goes here
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 == 0)
+          arr.splice(i, 1, 'even index');
+      }
     
 }
+
 
 //Expected output
 //Given arr == ["Max","Baseball","Reboot","Goku","Trucks","Rodger"]
